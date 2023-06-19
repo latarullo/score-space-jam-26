@@ -74,7 +74,7 @@ public class Player : MonoBehaviour {
     }
 
     private void OnCollisionStay(Collision collision) {
-        animator.SetBool("jump", false);
+        animator?.SetBool("jump", false);
         jump = false;
     }
 }
